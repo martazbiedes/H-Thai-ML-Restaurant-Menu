@@ -1,0 +1,112 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+    font-family: 'Trebuchet MS';
+    font-stretch: wider;
+    font-kerning: unset;
+}
+
+h2 {
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(245, 137, 98, 0.835);
+
+}
+p{
+    text-align: center;
+}
+
+i{
+    color: red;
+}
+
+li {
+    color: green;
+}
+
+img {
+    width: 50%; 
+    height: auto;
+    max-width: 100%;
+
+}
+
+main {
+    margin: 0 20%;
+}
+
+nav {
+    background-color: rgba(204, 196, 172, 0.918);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+nav ul {
+    display: inline;
+    list-style-type: horizontal;
+    
+}
+
+nav li {
+    display: inline; 
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: green;
+    margin-right: 25px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+#banner {
+    width: 15%;
+    height: auto;
+    background-color: white;
+}
+
+#banner img {
+    width: 60%;
+    height: auto;
+}
+
+.service {
+    display: inline-block;
+    background-color: white;
+    border: 5px dotted purple;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+}
+
+table {
+    border: 2px solid black;
+    width: 100%;
+}
+  
+td{
+    border: 2px solid black;
+    width: 100%;
+    color: purple;
+}
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
